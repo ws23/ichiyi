@@ -23,5 +23,5 @@
 	</head>
 	<body>
 	<div name="all" style="position: absolute; top: 5px; left: 50%; margin-left: -640px; ">
-			<img src="<?php echo getHost(); ?>img/Logo_626x06.png" title="愛奇藝" alt="愛奇藝"/> 
+			<img src="<?php echo getHost(); ?>img/Logo_626x96.png" title="愛奇藝" alt="愛奇藝"/> 
 	<hr />

@@ -22,13 +22,13 @@ body.overlay {
   border-bottom: 1px solid #fafffc;
 }
 #header {
-  background-color: #168817;
-  background-image: -moz-linear-gradient(top, #333333 0%, #168817 100%);
-  background-image: -ms-linear-gradient(top, #333333 0%, #168817 100%);
-  background-image: -o-linear-gradient(top, #333333 0%, #168817 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #333333), color-stop(1, #168817));
-  background-image: -webkit-linear-gradient(top, #333333 0%, #168817 100%);
-  background-image: linear-gradient(top, #333333 0%, #168817 100%);
+  background-color: #000000;
+  background-image: -moz-linear-gradient(top, #000000 0%, #000000 100%);
+  background-image: -ms-linear-gradient(top, #000000 0%, #000000 100%);
+  background-image: -o-linear-gradient(top, #000000 0%, #000000 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #000000), color-stop(1, #000000));
+  background-image: -webkit-linear-gradient(top, #000000 0%, #000000 100%);
+  background-image: linear-gradient(top, #000000 0%, #000000 100%);
 }
 a {
   color: #0072b6;

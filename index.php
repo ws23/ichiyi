@@ -39,7 +39,7 @@
 				left: -25px; 
 			}
 			li {
-				height: 41px; 		
+				height: 42px; 		
 			}
 			.selected {
 				background-color: #EAEA00; 
@@ -112,13 +112,13 @@
 						echo '<tr><td id="col_1" style="border-radius: 15px 15px 0px 0px; "></td></tr>'; 
 						for($i=2;$i<$max;$i++)
 							echo "<tr><td id='col_{$i}'></td></tr>"; 
-						echo "<tr><td id='col_{$i}' style='border-radius: 0px 0px 15px 15px'></td></tr>"; 
+						echo "<tr><td id=\"col_{$max}\" style=\"border-radius: 0px 0px 15px 15px\"></td></tr>"; 
 					}
 					else{
 						echo '<tr><td id="col_1" style="border-radius: 15px 15px 0px 0px; "></td></tr>'; 
 						for($i=2;$i<10;$i++)
 							echo "<tr><td id='col_{$i}'></td></tr>"; 
-						echo "<tr><td id='col_{$i}' style='border-radius: 0px 0px 15px 15px; ></td></tr>"; 
+						echo '<tr><td id="col_10" style="border-radius: 0px 0px 15px 15px; "></td></tr>'; 
 					}
 			?>
 		</table>

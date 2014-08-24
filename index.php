@@ -103,7 +103,7 @@
 	</div>
 	<!-- Picture End-->
 	<!-- Select List -->
-	<div name="list" style="position: absolute; top: 80px; left: 1035px; ">
+	<div name="list" style="position: absolute; top: 140px; left: 1035px; ">
 		<table>
 			<?php
 					if($max==1)

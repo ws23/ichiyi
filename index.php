@@ -26,7 +26,7 @@
 				text-decoration: none; 
 			}
 			tr {
-				height: 40px;
+				height: 36px;
 				background-color: #505050; 
 				color: #EEEEEE; 
 				opacity: 0.7; 
@@ -39,7 +39,7 @@
 				left: -25px; 
 			}
 			li {
-				height: 42px; 		
+				height: 38px; 		
 			}
 			.selected {
 				background-color: #EAEA00; 
@@ -91,7 +91,7 @@
 				$count++; 
 				$len = strlen($row['uri']); 
 				$url = substr($row['uri'], 9, $len-9); 
-				echo '<a href="article/?q=node/' . $row['nid'] . '"><img id="banner_' . $count . '" src="article/files/' . $url . '" alt="' . $row['title'] . '" title="' . $row['title'] . '" style="height: 460px; width: 1280px; '; 
+				echo '<a href="article/?q=node/' . $row['nid'] . '"><img id="banner_' . $count . '" src="article/files/' . $url . '" alt="' . $row['title'] . '" title="' . $row['title'] . '" style="height: 400px; width: 1280px; '; 
 				if($count==1)
 					echo 'display: block; "/></a>'; 
 				else
@@ -103,7 +103,7 @@
 	</div>
 	<!-- Picture End-->
 	<!-- Select List -->
-	<div name="list" style="position: absolute; top: 80px; left: 1035px; ">
+	<div name="list" style="position: absolute; top: 60px; left: 1035px; ">
 		<table>
 			<?php
 					if($max==1)
